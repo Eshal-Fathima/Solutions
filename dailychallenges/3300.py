@@ -16,3 +16,6 @@ class Solution:
             ans = min(res, ans)     #compares the res of the digits, and answer gives you 
             # the minimum value among them
         return ans
+    
+# approach: brute force approach
+#also known as direct stimulation approach 
