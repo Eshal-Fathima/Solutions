@@ -5,8 +5,8 @@ class Node:
 
 class Solution:
     def mergeTwoLists(self, list1: Node, list2: Node) -> Node:
-        dummy = Node(0)
-        tail = dummy
+        dummy = Node(0)     #created a dummy list that starts with 0
+        tail = dummy        #tail as a ptr so that it can move throught the list
         
         while list1 and list2:
             if list1.data < list2.data:
