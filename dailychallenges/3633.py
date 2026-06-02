@@ -19,5 +19,9 @@ class Solution:
                     res.append(water + bal + landDuration[j])
         return min(res)
     
-#brute force method
-# could have used a more efficient method by sorting the start times and then using two pointers to find the earliest finish time.
+# approach: brute force method
+# could have used a more efficient method by sorting the start times
+# then using two pointers to find the earliest finish time.
+# what i did was to iterate through all possible combinations of land and water start times
+# calculate the finish time for each combination
+# then return the minimum finish time.
