@@ -6,3 +6,4 @@ def smallest(nums,k):
         minn = heapq.heappop(nums)
         new.append(minn)
     return new
+
