@@ -6,3 +6,11 @@ class Solution:
         for i in range(k):
             count += val
         return count 
+    
+# brute force method or direct computation method
+
+# more optimized version 
+class Solution:
+    def maxTotalValue(self, nums: List[int], k: int) -> int:
+        return (max(nums)-min(nums))*k
+    
