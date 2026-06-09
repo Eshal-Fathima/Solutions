@@ -1,6 +1,6 @@
 #my solution
 class Solution:
-    def maxTotalValue(self, nums: List[int], k: int) -> int:
+    def maxTotalValue(self, nums, k: int) -> int:
         val = max(nums)-min(nums)
         count = 0
         for i in range(k):
@@ -13,7 +13,7 @@ class Solution:
 
 # more optimized version 
 class Solution:
-    def maxTotalValue(self, nums: List[int], k: int) -> int:
+    def maxTotalValue(self, nums, k: int) -> int:
         return (max(nums)-min(nums))*k
     
 # time complexity = O(n)
